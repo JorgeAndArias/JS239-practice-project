@@ -1,0 +1,49 @@
+.hide {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.show {
+  visibility: visible;
+  opacity: 1;
+}
+
+#modal-layer {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  background: rgba(37, 37, 38, 0.3);
+}
+
+#tag-form-modal, #form-modal {
+  position: absolute;
+  left: 50%;
+  z-index: 3;
+  width: 660px;
+  padding: 43px 65px 51px 72px;
+  margin: -85px 0 0 -328px;
+  text-align: left;
+  background: #ffffff;
+  -webkit-transition: visibility 0.3s, opacity 0.3s;
+    -moz-transition: visibility 0.3s, opacity 0.3s;
+      transition: visibility 0.3s, opacity 0.3s;
+}
+
+.form-error {
+  color: red;
+}
+
+.badge:hover {
+  cursor: pointer;
+}
+
+.card {
+  margin: 0 10rem 0 10rem;
+}
+
+.tag-form-save {
+  margin-right: 5px;
+}
